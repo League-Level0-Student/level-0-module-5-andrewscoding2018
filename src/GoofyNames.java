@@ -10,7 +10,15 @@ public class GoofyNames {
 		String goofyName = "";
 
 		// 1. Ask the user to enter their name
-
+String goofyname = JOptionPane.showInputDialog("What is your name?");
+if(goofyname.equals("Aidan"))
+{
+	JOptionPane.showMessageDialog(null, "Your name is already goofy.");
+}
+else
+{
+	JOptionPane.showMessageDialog(null, "Aidan will be your goofy name. ");
+}
 		// 2. Print upper case name to the console using .toUpperCase()
 		//    Run your program to see that this works.
 
