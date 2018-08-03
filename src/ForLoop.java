@@ -28,8 +28,8 @@ public class ForLoop {
 		for (int s = 1; s <= 3; s++) {
 			for (int i = 1; i <= 3; i++) {
 				j = i;
+				JOptionPane.showMessageDialog(null, j);
 			}
-			JOptionPane.showMessageDialog(null, j);
 
 		}
 	}
